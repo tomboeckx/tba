@@ -1,0 +1,18 @@
+frontpage categories zijn nog hardcoded :s
+
+done
+-aanduiden van 'verkochte producten' categorie
+-sorteren van productcategorien
+-sorteren van producten
+
+todo:
+=====
+Product.php - next & prev product buttons voorzien
+-reservatiebevestiging soms in spam folder ?
+-kartel in het logo op sommige browsers & contrast+uitlijning header pattern
+-sorteren van product images
+-set default image
+-formaat frontpage producten
+-Categories.php styling, content ?
+
+

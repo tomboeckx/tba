@@ -1,0 +1,193 @@
+			body, 
+			h1 {
+				margin : 0px;
+				padding : 0px;
+				font-family: 'Verdana';
+			}
+			
+			table {
+				border-collapse: collapse;
+				font-size: x-large;
+			}
+			tr {
+				border-bottom:1px solid black;
+			}
+			
+			#editForm table tbody tr
+			{
+				border-bottom:0px;
+			}
+
+			#menuWrapper {
+				width:100%;
+				height:60px; 
+				background-color:#06799F; 
+				color: white;
+			}
+			#menu {
+				margin : 0px;
+				padding : 10px;
+			}
+			#content {
+				width:100%;
+			}
+			#navWrapper {
+				background-color:#61B4CF; 
+				color: white; 
+				float:left;
+				width: 10%;				
+				height:100%;
+			}
+			#nav {
+				padding-top:10px;
+			}
+			#bodyWrapper {
+				color: black;
+				width: 90%;
+				margin-left:10%;
+			}
+			#bodycontent {
+				padding-top:5px;
+				padding-left:10px;
+			}
+
+			#navHeader {
+				margin-left:15px;
+			}
+			#navFooter {
+				margin-left:15px;
+				font-size:x-small;
+			}
+			
+			.navItem {
+				background-color:#216278;
+				width:100%;
+				height:50px;
+				border-top:1px solid white;
+				border-bottom:1px solid white;
+				margin-top:15px;
+				margin-bottom:15px;
+				cursor:pointer;
+			}
+			.navItem:hover {
+				background-color:#024E68;
+			}
+			.navItemEmpty {
+				width:100¨%;
+				height:30px;
+				/*border:1px solid white;*/
+				margin-top:5px;
+				margin-bottom:5px;
+			}
+			.navItem>a>span {
+				margin-left:15px;
+				padding-top:10px;
+				display:inline-block;
+				font-size:x-large;
+				font-weight:700;
+			}
+			
+			li {
+				/*padding-left:5px;*/
+			}
+			
+			li>a,
+			li>a:visited{
+				text-decoration:none;
+				color:white;
+			}
+			
+			input {
+				width:300px;
+				border:1px solid black;
+				font-size:larger;
+			}
+			input[type=text]{
+				height: 32px;
+			}
+			
+			div .ui-dialog-buttonset .ui-button span {
+				margin-top:-15px;
+			}
+			div .ui-dialog-buttonset .ui-button {
+				height: 50px;
+			}
+			
+			
+			div .ui-dialog-buttonset .ui-button,
+			input[type=submit], 
+			input[type=button]{
+				color: #08233e;
+				font-size: 18pt;
+				padding: 12px;
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0.5, rgba(255,255,255,0.3)), color-stop(0.5, #00ccff), to(#00ccff));
+				background: -webkit-linear-gradient(top, rgba(255,255,255,0.3) 50%, #00ccff 50%, #00ccff);
+				background: -moz-linear-gradient(top, rgba(255,255,255,0.3) 50%, #00ccff 50%, #00ccff);
+				background: -ms-linear-gradient(top, rgba(255,255,255,0.3) 50%, #00ccff 50%, #00ccff);
+				background: -o-linear-gradient(top, rgba(255,255,255,0.3) 50%, #00ccff 50%, #00ccff);
+				background: linear-gradient(top, rgba(255,255,255,0.3) 50%, #00ccff 50%, #00ccff);
+				background-color: #00ccff;
+				border: 1px solid #00ccff;
+				-moz-border-radius: 10px;
+				-webkit-border-radius: 10px;
+				-o-border-radius: 10px;
+				-ms-border-radius: 10px;
+				border-radius: 10px;
+				border-bottom: 1px solid #9f9f9f;
+				-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+				-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+				-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+				-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+				box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+				cursor: pointer;
+				text-shadow: 0 1px #fff;
+
+			}
+			input[type=submit]:hover, 
+			input[type=button]:hover{
+				color: #08233e;
+				font-size: 18pt;
+				padding: 12px;
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0.5, rgba(255,255,255,0.3)), color-stop(0.5, lightgrey), to(lightgrey));
+				background: -webkit-linear-gradient(top, rgba(255,255,255,0.3) 50%, lightgrey 50%, lightgrey);
+				background: -moz-linear-gradient(top, rgba(255,255,255,0.3) 50%, lightgrey 50%, lightgrey);
+				background: -ms-linear-gradient(top, rgba(255,255,255,0.3) 50%, lightgrey 50%, lightgrey);
+				background: -o-linear-gradient(top, rgba(255,255,255,0.3) 50%, lightgrey 50%, lightgrey);
+				background: linear-gradient(top, rgba(255,255,255,0.3) 50%, lightgrey 50%, lightgrey);
+				background-color: lightgrey;
+				border: 1px solid lightgrey;
+				-moz-border-radius: 10px;
+				-webkit-border-radius: 10px;
+				-o-border-radius: 10px;
+				-ms-border-radius: 10px;
+				border-radius: 10px;
+				border-bottom: 1px solid #9f9f9f;
+				-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+				-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+				-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+				-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+				box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+				cursor: pointer;
+				text-shadow: 0 1px #fff;
+			}
+			
+
+			.ui-button{
+				background-color:lightblue;
+				border:1px solid black;
+				font-size:larger;
+				height: 32px;
+			}
+			.ui-button:hover{
+				background-color:lightgray;
+			
+			}
+			
+			.actionIcon {
+				cursor: pointer;
+			}
+			
+			#tblOrders tbody tr td {
+			padding-left:3px;
+			padding-right:5px;
+			}

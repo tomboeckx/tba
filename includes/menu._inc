@@ -1,0 +1,46 @@
+			<?php 
+				$resultinfo = mysqli_query($cnn,"SELECT value FROM settings WHERE variable='page1title'");
+				$rowinfo = mysqli_fetch_array($resultinfo);
+				$page1title = $rowinfo["value"];
+
+				$resultinfo = mysqli_query($cnn,"SELECT value FROM settings WHERE variable='page1subheader'");
+				$rowinfo = mysqli_fetch_array($resultinfo);
+				$page1subheader = $rowinfo["value"];
+
+				$resultinfo = mysqli_query($cnn,"SELECT value FROM settings WHERE variable='page2title'");
+				$rowinfo = mysqli_fetch_array($resultinfo);
+				$page2title = $rowinfo["value"];
+
+				$resultinfo = mysqli_query($cnn,"SELECT value FROM settings WHERE variable='page2subheader'");
+				$rowinfo = mysqli_fetch_array($resultinfo);
+				$page2subheader = $rowinfo["value"];
+			?>
+			<!-- Menu -->
+			<div id="menu">
+				<!-- ENDS menu-holder -->
+				<div id="menu-holder">
+					<!-- wrapper-menu -->
+					<div class="wrapper">
+						<!-- Navigation -->
+						<ul id="nav" class="sf-menu">
+							<li id="navHome"><a href="home.php">Home<span class="subheader"></span></a></li>
+							<li id="navInfo"><a href="info.php"><?php echo $page1title;?><span class="subheader"><?php echo $page1subheader;?></span></a></li>
+							<?php
+								$resultNavCats = mysqli_query($cnn,"SELECT * FROM categories ORDER BY sortorder ASC, name ASC");
+
+								while($rowNavCats = mysqli_fetch_array($resultNavCats)) { ?>
+									<li id="navCat<?php echo $rowNavCats['id']?>" ><a href="products.php?catseoname=<?php echo $rowNavCats['seoname']?>"><?php echo $rowNavCats['name']?><span class="subheader"><?php echo $rowNavCats['subheader']?></span></a></li>
+								  
+							<?	}
+							?>
+							<li id="navConditions"><a href="conditions.php"><?php echo $page2title;?><span class="subheader"><?php echo $page2subheader;?></span></a></li>
+							<li id="navContact"><a href="contact.php">Contact<span class="subheader">Onze gegevens</span></a></li>
+						</ul>
+						<!-- Navigation -->
+					</div>
+					<!-- wrapper-menu -->
+				</div>
+				<!-- ENDS menu-holder -->
+				<img src="../images/Logo.png" class="throwbackLogo">
+			</div>
+			<!-- ENDS Menu -->

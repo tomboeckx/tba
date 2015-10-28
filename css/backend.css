@@ -1,0 +1,54 @@
+.cboxIframe{width:100%; height:100%; border:1; padding:0; margin:0;}
+.beheerContent{ border:1px solid red; padding:25px; margin:25px;background-color:white}
+.beheerBody{background-color:lightgrey}
+.tableRow {
+	font-size:xx-large;
+}
+.buttonAdmin{
+	height: 32px;
+	width:300px;
+	border: 2px solid orange;
+	background-color: black;
+	color: white;
+	font-size:x-large;
+	text-decoration:none;
+	text-align:center;
+	padding-top:2px;
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;
+	cursor:pointer;	
+}
+
+.buttonAdminWide{
+	height: 32px;
+	width:600px;
+	border: 2px solid orange;
+	background-color: grey;
+	color: white;
+	font-size:x-large;
+	text-decoration:none;
+	text-align:center;
+	padding-top:2px;
+	margin:5px;
+	display:block;			
+	cursor:pointer;	
+}
+.tableCell{
+	border-top:1px solid black;
+	padding-top:5px;
+}
+.buttonInput{
+	height: 32px;
+	border: 2px solid orange;
+	background-color: black;
+	color: white;
+	font-size:x-large;
+	text-decoration:none;
+	text-align:center;
+	padding-top:2px;
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;			
+	cursor:pointer;	
+}

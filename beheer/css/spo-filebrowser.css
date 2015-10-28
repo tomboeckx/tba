@@ -1,0 +1,95 @@
+	#divFileBrowser {
+		margin:5px;
+		padding:5px;
+		background:#aaf;
+		border:1px solid black;
+	}
+	
+	#divFileBrowser p {
+		font-size:xx-small;
+		position:absolute;
+		width:150px;
+		margin-left:22px;
+		margin-top:190px;
+		color:white;
+		overflow-x:hidden;
+	}
+
+	.divFile {
+		margin:2px;
+		padding:5px;
+		background:#aaa;
+		border:1px solid red;
+		width:200px;
+		height:240px;
+		display:inline-block;
+		vertical-align: middle;	
+	}
+	
+	.divCheckBox {
+		margin-left:auto;
+		margin-right:auto;
+		width:24px;
+		height:24px;
+	}
+	
+	.divThumb {
+		margin-left:auto;
+		margin-right:auto;
+		width:160px;
+		height:160px;
+		border:1px solid white;
+		background-color:black;
+	}
+	
+	.divThumb img {
+		border:1px solid grey;
+	}
+	
+	#divPreview {
+		position:absolute;
+		top:0px;
+		left:0px;
+	}
+
+	#divPreview img {
+		width:400px;
+		height:300px;
+		border: 1px solid black;
+	}
+
+	input[type=checkbox] {  
+        display: none;  
+    }  
+    label {  
+        display: inline-block;  
+        cursor: pointer;  
+        position: relative;  
+        padding-left: 25px;  
+        margin-right: 15px;  
+        font-size: 13px;  
+    }  
+	label:before {  
+        content: "";  
+        display: inline-block;  
+        width: 16px;  
+        height: 16px;  
+        margin-right: 10px;  
+        position: absolute;  
+        left: 0;  
+        bottom: 1px;  
+        background-color: #aaa;  
+        box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+		border-radius: 8px;  		
+    }
+	.divCheckBox label:before {  
+        border-radius: 3px;  
+    }  
+	input[type=checkbox]:checked + label:before {  
+        content: "\2713";  
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);  
+        font-size: 15px;  
+        color: #f3f3f3;  
+        text-align: center;  
+        line-height: 15px;  
+    }  	
