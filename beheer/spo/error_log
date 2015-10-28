@@ -1,0 +1,10 @@
+[25-Jan-2015 15:18:21 UTC] PHP Warning:  imagecreatefromstring(): Data is not in a recognized format in /home/throwbackauth/public_html/beheer/spo/index.php on line 57
+[25-Jan-2015 15:18:21 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/throwbackauth/public_html/beheer/spo/index.php on line 58
+[25-Jan-2015 15:18:21 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/throwbackauth/public_html/beheer/spo/index.php on line 61
+[27-Jan-2015 19:41:49 UTC] PHP Warning:  imagecreatefromstring(): Data is not in a recognized format in /home/throwbackauth/public_html/beheer/spo/index.php on line 57
+[27-Jan-2015 19:41:49 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/throwbackauth/public_html/beheer/spo/index.php on line 58
+[27-Jan-2015 19:41:49 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/throwbackauth/public_html/beheer/spo/index.php on line 61
+[12-Jul-2015 23:19:04 UTC] PHP Fatal error:  Call to a member function getFolders() on a non-object in /home/throwbackauth/public_html/beheer/spo/index.php on line 6
+[24-Jul-2015 13:58:07 UTC] PHP Fatal error:  Call to a member function getFolders() on a non-object in /home/throwbackauth/public_html/beheer/spo/index.php on line 6
+[27-Jul-2015 15:17:07 UTC] PHP Fatal error:  Call to a member function getFolders() on a non-object in /home/throwbackauth/public_html/beheer/spo/index.php on line 6
+[27-Jul-2015 15:17:47 UTC] PHP Fatal error:  Call to a member function getFolders() on a non-object in /home/throwbackauth/public_html/beheer/spo/index.php on line 6

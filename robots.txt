@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /fotos
+Disallow: /_dev
+Disallow: /_dev2
+Disallow: /beheer
+Disallow: /owncloud

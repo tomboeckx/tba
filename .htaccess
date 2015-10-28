@@ -1,0 +1,20 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^throwback\-authentics\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.throwback\-authentics\.com$
+RewriteRule ^/?$ "http\:\/\/throwback\-authentics\.be" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^throwback\-authentics\.eu$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.throwback\-authentics\.eu$
+RewriteRule ^/?$ "http\:\/\/throwback\-authentics\.be" [R=301,L]
+
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^ index.php [L]
+
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)/$ /$1 [L,R=301]
